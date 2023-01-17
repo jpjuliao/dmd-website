@@ -2,7 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Card from "../components/Card.astro";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-// import 'animate.css';
+import 'animate.css';
 ---
 
 <script>
@@ -11,11 +11,11 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 </script>
 
 <div class="p-4 text-center text-gray-800">
-	<h1 class="my-4 text-4xl font-bold">LOGO</h1>
+	<h1 class="my-4 text-4xl font-bold animate__animated animate__flip">LOGO</h1>
 	<nav class="text-2xl">
-		<span class="px-4">WEB</span>
-		<span class="px-4">SOCIAL MEDIA</span>
-		<span class="px-4">MARKETING</span>
+		<span class="px-4 animate__animated animate__flipInX animate__delay-1s inline-block">WEB</span>
+		<span class="px-4 animate__animated animate__flipInX animate__delay-2s inline-block">SOCIAL MEDIA</span>
+		<span class="px-4 animate__animated animate__flipInX animate__delay-3s inline-block">MARKETING</span>
 	</nav>
 </div>
 
